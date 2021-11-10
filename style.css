@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+img {
+  position: absolute;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+  left: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+button, input {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 20px;
+  height: 40px;
+}
+
+input {
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 0px;
+  color: white;
+  width: 500px;
+}
+
+button {
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 0px;
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 0px;
+    font-weight: bold;
+  color: black;
+}
